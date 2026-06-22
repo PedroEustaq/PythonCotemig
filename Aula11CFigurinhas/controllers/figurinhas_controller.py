@@ -2,7 +2,7 @@
 # Aluno: Pedro Eustáquio Martins Assad Magalhães
 
 from flask import Blueprint, redirect, render_template, request, url_for
-
+from datetime import datetime
 from models import Colecionador, Figurinha, ItemOferta, OfertaTroca, db
 
 figurinhas_bp = Blueprint("figurinhas", __name__, url_prefix="/figurinhas")
